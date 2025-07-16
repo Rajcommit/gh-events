@@ -1,12 +1,12 @@
 #https://docs.github.com/en/actions/reference/events-that-trigger-workflows
 
 name: Events Demo 1
-on: 
+on:
   pull_request:
-     types:
-        [opened, edited] 
-        ##- opened
-        ##- edited
+    types:
+      [opened, edited]
+      ##- opened
+      ##- edited
   workflow_dispatch:
 jobs:
   deploy:
