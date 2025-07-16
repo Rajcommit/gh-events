@@ -4,7 +4,7 @@ name: Events Demo 1
 on: 
   pull_request:
      types:
-        [opened, edited]
+        [opened, edited] 
         ##- opened
         ##- edited
   workflow_dispatch:
